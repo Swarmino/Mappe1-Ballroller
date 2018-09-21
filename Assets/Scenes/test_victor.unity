@@ -118,7 +118,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh12970
+  m_Name: pb_Mesh12902
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -375,13 +375,14 @@ GameObject:
   - component: {fileID: 836083633}
   - component: {fileID: 836083632}
   - component: {fileID: 836083631}
+  - component: {fileID: 836083634}
   m_Layer: 0
   m_Name: spike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &836083630
 Transform:
   m_ObjectHideFlags: 0
@@ -454,6 +455,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 836083629}
   m_Mesh: {fileID: 4300000, guid: d713ac3b537f0244e9e7e8ed8e935cd1, type: 3}
+--- !u!114 &836083634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 836083629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b242673d389924abcbd789154a2c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1144148726
 Prefab:
   m_ObjectHideFlags: 0
@@ -868,7 +880,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh13024
+  m_Name: pb_Mesh12932
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1787,7 +1799,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh13012
+  m_Name: pb_Mesh12920
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
