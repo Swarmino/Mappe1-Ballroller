@@ -61,9 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Follow.cs" />
-    <Compile Include="Assets\Obstacle_Spike.cs" />
-    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Follow.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>D:/Mappe1-Ballroller/Mappe1-Ballroller/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>

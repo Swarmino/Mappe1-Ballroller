@@ -19,6 +19,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4571767703066286}
+  - component: {fileID: 114874000246761246}
+  - component: {fileID: 65463423506024374}
   m_Layer: 0
   m_Name: spike
   m_TagString: Untagged
@@ -49,9 +51,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1572991403591748}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: -2, z: 1}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4906125438405168}
   m_Father: {fileID: 0}
@@ -85,7 +87,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: d713ac3b537f0244e9e7e8ed8e935cd1, type: 3}
+  - {fileID: 2100000, guid: ef65e140db4bd144a9b0861cc24bd3f2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,3 +114,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1960453566462846}
   m_Mesh: {fileID: 4300000, guid: d713ac3b537f0244e9e7e8ed8e935cd1, type: 3}
+--- !u!65 &65463423506024374
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1572991403591748}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114874000246761246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1572991403591748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47704b923018f6b4c9abe9ba6ec1c718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
