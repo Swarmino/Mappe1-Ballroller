@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Follow.cs" />
+    <Compile Include="Assets\Obstacle_Spike.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
